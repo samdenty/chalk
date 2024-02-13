@@ -1,7 +1,7 @@
 /* globals suite, bench */
 import chalk from './index.js';
 
-suite('chalk', () => {
+suite('chalk3', () => {
 	const chalkRed = chalk.red;
 	const chalkBgRed = chalk.bgRed;
 	const chalkBlueBgRed = chalk.blue.bgRed;
